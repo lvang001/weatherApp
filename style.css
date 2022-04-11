@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: white;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 120%;
+    background-image: url('https://source.unsplash.com/random/3200x1800/?weather');
+}
+
+
+
+
+.card {
+    background: #000000d0;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 1);
+    padding: 3em;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    margin: 1em;
+    color: white;
+}
+
+.src {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+button:hover {
+    background: black;
+}
+input.searchBar:hover{
+    background: black;
+}
+
+input.searchBar {
+    border: none;
+    outline: none;
+    padding: 0.8em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-size: 120%;
+    width: calc(100% -80px);
+    transition:0.2s ease-in-out;
+    box-shadow: 10px 5px 15px rgba(0, 0, 0, 1);
+}
+
+button {
+    margin: 1em;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    color: white;
+    background: #7c7c7c2b;
+    cursor: pointer;
+    transition:0.2s ease-in-out;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.weather.loading {
+    visibility: hidden;
+}
